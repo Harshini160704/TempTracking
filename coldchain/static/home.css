@@ -1,0 +1,181 @@
+
+@media  screen and (max-width: 480px) {
+
+    .home{
+        color: black;
+        top: 13px;
+        position: absolute;
+        right: 64%;
+        font-size: 23px;
+        font-family: 'Rubik', sans-serif;
+        background-color:#7a7e82 ;
+        height: 40px;
+         width: 81px;
+         text-align: center; /* Center the text horizontally */
+    line-height: 40px;
+         border-radius: 40px;
+       
+        
+        
+    }
+    .about
+    {
+        color: black;
+        top: 20px;
+        position: absolute;
+        right: 46%;
+        font-size: 23px;
+        font-family: 'Rubik', sans-serif;
+
+    }
+    .contact
+    {
+        color: black;
+        top: 20px;
+        position: absolute;
+        right: 21%;
+        font-size: 23px;
+        font-family: 'Rubik', sans-serif;
+
+    }
+    
+.write{
+    background: linear-gradient(to right,black, #0277B5);
+    height: 160px;
+    width: 270px;
+    margin: 111px auto 0 auto;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.write1{
+    background: linear-gradient(to right,black, #8BB9E8);
+    border: 4px solid white;
+    height: 80px;
+    width: 80px;
+    position:fixed;
+    top: 85px;
+    right: 62px;
+    border-radius: 50px;
+    cursor: pointer;
+   
+}
+
+.read{  
+    background: linear-gradient(to bottom,black, #8BB9E8 );
+    height: 160px;
+    width: 270px;
+    margin: 75px auto 0 auto;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.read1{
+    background: linear-gradient(to right,black, #6F9DCD);
+    height: 80px;
+    width: 80px;
+    position:fixed;
+    top: 290px;
+    right: 152px;
+    border: 4px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    
+
+}
+.track{
+    background: linear-gradient(to right,black,#6F9DCD );
+    
+    height: 160px;
+    width: 270px;
+    margin: 77px auto 0 auto;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.track1{
+    background: linear-gradient(to right,black, #0277B5);
+    border: 4px solid white;
+    height: 80px;
+    width: 80px;
+    position:absolute;
+    top: 655px;
+    right: 311px;
+    border: 4px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.wr{
+    color: white;
+    top: 140px;
+    position:absolute ;
+    left: 30%; 
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    
+
+}
+.re{
+    color: white;
+    top: 370px;
+    position:absolute;
+    left: 30%; 
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    
+
+}
+.tr{
+    color: white;
+    top: 600px;
+    position:absolute ;
+    left: 30%; 
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+
+}
+.w1{
+    color: white;
+    top: 190px;
+    position:absolute ;
+    left: 36%; 
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    
+
+}
+.r1{
+    color: white;
+    top: 420px;
+    position:absolute;
+    left: 36%; 
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    
+
+}
+.t1{
+    color: white;
+    top: 650px;
+    position:absolute ;
+    left: 36%; 
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;  
+
+}
+.logo{
+    top: 32px;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    left: 2%;
+    border-radius: 401px;
+}    
+.fa-circle-user{
+    top: 41px;
+    position: absolute;
+   font-size: 34px;
+   color: rgb(26, 27, 28);
+    left: 86%;
+
+} 
+}

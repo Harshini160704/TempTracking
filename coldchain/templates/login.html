@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet"  href="{% static 'signin.css' %}">
+    
+    <title>Signin</title>
+</head>
+<body>
+    
+    <img class="logo" src="{% static '/photo/logo.jpg' %}" >
+    <img class="image"src="{% static '/photo/user.png' %}">
+    <p class="login"> 
+        <h2 class="heading">Getting started</h2>
+        <p class="sub">create your account to continue</p>
+        <form method="post">
+        <input class="gmail" id="gmail" name="gmail" placeholder="gmail">
+        <input class="password" id="password" name="password" placeholder="password">
+    </form >
+    
+    <p class="color">{{error_message}}</p>
+    <h1><p class="drag">sign in</p></h1>
+    <p class="signup">Already have an account?<a class="anchor" href="{% url 'signup' %}" > sign up</a></p>
+    
+
+    </p>
+</body>
+</html>

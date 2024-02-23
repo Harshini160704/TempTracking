@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet"  href="{% static 'signup.css' %}">
+    <title>Signup</title>
+</head>
+<body>
+    
+    <img class="logo" src="{% static '/photo/logo.jpg' %}" >
+    <img class="image"src="{% static '/photo/user.png' %}">
+    <p class="login"> 
+        <h2 class="heading">Let's get something new</h2>
+        <p class="sub">Good to see you back</p>
+        <form >
+        <input class="username" id="user-name" name="user-name" placeholder="user-name">
+        <input class="gmail" id="gmail" name="gmail" placeholder="gmail">
+        <input class="password" id="password" name="password" placeholder="password">
+    </form method="post">
+    
+    
+    <p class="color">{{error_message}}</p>
+    <h1><p class="drag">sign up</p></h1>
+    <p class="signin">or <a class="anchor" href="{% url 'login' %}" > sign in</a> with your google account</p>
+    <p class="term">By signing up you agree to our <a href="" > Terms of use </a><br>  
+        <p class="policy"> and <a href="" >privacy policy</a><br>            
+  
+  
+
+
+    </p>
+    
+</body>
+</html>

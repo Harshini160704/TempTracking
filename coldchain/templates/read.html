@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet"  href="{% static 'read.css' %}">
+    <title>Read</title>
+</head>
+<body>
+    <p class="d1">
+        <p class="line"></p>
+        <p class="w1">Write</p>
+        <p class="r1">Read</p>
+        <p class="t1">Track</p>
+    </p>
+    <p class="d2a">
+        <form method="post">
+            {% csrf_token %}
+            <label class="loc" for="location">ENTER YOUR LOCATION</label>
+            <input class="location" id="location" name="location" placeholder="Enter address or place">
+            <button type="submit">Read</button>
+        </form>
+    </p>
+</body>
+</html>

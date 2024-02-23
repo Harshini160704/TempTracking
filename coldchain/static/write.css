@@ -1,0 +1,418 @@
+@media  screen and (max-width:480px){
+
+    .d1{
+        height: 60px;
+        right: 9%;
+        width: 90%;
+        position: absolute;
+      
+        top: 20px;
+        background-color:#d3e5f8 ;
+        border-radius: 30px;
+        left: 5%;
+        
+}
+.w1{
+    position:absolute ;
+    top: 23px;
+    font-size: 27px;
+    left: 11%;
+    color : #0277B5;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.r1{
+    position:absolute;
+    top: 23px;
+    font-size: 27px;
+    left: 42%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.t1{
+    position:absolute;
+    top: 23px;
+    font-size: 27px;
+    left: 73%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.d2{
+    height: 90%;
+        right: 9%;
+        width: 90%;
+        position:absolute ;
+        top: 100px;
+        background-color: #e2ebf4;
+        border-radius: 40px;
+        left: 5%;
+        overflow-y:  scroll;
+        
+
+}
+.details{
+    color: black;
+    top: 115px;
+    position:absolute ;
+    left: 33%; 
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pr1{
+    color: black;
+    top: 185px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.pr2{
+    
+        background-color: #f4f7fe;
+        height: 33px;
+        left: 23%;
+        width: 60%;
+        position:absolute ;
+        top: 235px;
+        border: 0px solid #f4f7fe;
+        font-family: 'Rubik', sans-serif;
+        padding-left: 10px;
+        font-size: 25px;
+}
+input::placeholder{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+.bn1{
+    color: black;
+    top: 290px;
+    position:absolute;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.bn2{
+    background-color: #f4f7fe;
+        height: 33px;
+        left: 23%;
+        width: 60%;
+        position:absolute ;
+        top: 340px;
+        border: 0px solid #f4f7fe;
+        font-family: 'Rubik', sans-serif;
+        padding-left: 10px;
+        font-size: 25px;
+
+}
+.mno1{
+    color: black;
+    top: 400px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.mno2{
+    background-color: #f4f7fe;
+        height: 33px;
+        left: 23%;
+        width: 60%;
+        position:absolute ;
+        top: 450px;
+        border: 0px solid #f4f7fe;
+        font-family: 'Rubik', sans-serif;
+        padding-left: 10px;
+        font-size: 25px;
+
+}
+.n1{
+    color: black;
+    top: 510px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.n2{
+    background-color: #f4f7fe;
+        height: 33px;
+        left: 23%;
+        width: 60%;
+        position:absolute ;
+        top: 560px;
+        border: 0px solid #f4f7fe;
+        font-family: 'Rubik', sans-serif;
+        padding-left: 10px;
+        font-size: 25px;
+
+}
+.mna1{
+    color: black;
+    top: 620px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.mna2{
+    background-color: #f4f7fe;
+        height: 33px;
+        left: 23%;
+        width: 60%;
+        position:absolute ;
+        top: 670px;
+        border: 0px solid #f4f7fe;
+        font-family: 'Rubik', sans-serif;
+        padding-left: 10px;
+        font-size: 25px;
+
+}
+.next{
+    background-color: #0277B5;
+    height: 40px;
+    width: 25%;
+    position:absolute ;
+    top: 720px;
+    right: 37%; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+.next1{
+    
+    height: 5%;
+    width: 25%;
+    position:absolute;
+    top: 725px;
+    right: 30%; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.sa1{
+    color: black;
+    top: 185px;
+    position:absolute;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.sa2{
+    background-color: #f4f7fe;
+        height: 33px;
+        left: 23%;
+        width: 60%;
+        position:absolute ;
+        top: 235px;
+        border: 0px solid #f4f7fe;
+        font-family: 'Rubik', sans-serif;
+        padding-left: 10px;
+        font-size: 25px;
+
+}
+.da1{
+    color: black;
+    top: 290px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.da2{
+    background-color: #f4f7fe;
+    height: 33px;
+    left: 23%;
+    width: 60%;
+    position:absolute ;
+    top: 340px;
+    border: 0px solid #f4f7fe;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    font-size: 25px;
+
+}
+.md1{
+    color: black;
+    top: 400px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.md2{
+    background-color: #f4f7fe;
+    height: 33px;
+    left: 23%;
+    width: 60%;
+    position:absolute ;
+    top: 450px;
+    border: 0px solid #f4f7fe;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    font-size: 25px;
+
+
+}
+.ed1{
+    color: black;
+    top: 510px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.ed2{
+    background-color: #f4f7fe;
+        height: 33px;
+        left: 23%;
+        width: 60%;
+        position:absolute ;
+        top: 560px;
+        border: 0px solid #f4f7fe;
+        font-family: 'Rubik', sans-serif;
+        padding-left: 10px;
+        font-size: 25px;
+
+}
+.max1{
+    color: black;
+    top: 620px;
+    position:absolute ;
+    left: 22.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.max2{
+    background-color: #f4f7fe;
+    height: 33px;
+    left: 23%;
+    width: 20%;
+    position:absolute ;
+    top: 670px;
+    border: 0px solid #f4f7fe;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.min1{
+    color: black;
+    top: 620px;
+    position:absolute ;
+    left: 58%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.min2{
+    background-color: #f4f7fe;
+    height: 33px;
+    left: 58%;
+    width: 20%;
+    position:absolute;
+    top: 670px;
+    border: 0px solid #f4f7fe;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.submit{
+    height: 5%;
+    width: 25%;
+    position:absolute;
+    top: 725px;
+    right: 30%; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.line{
+    background-color: #0277B5;
+    height: 8px;
+    width: 18%;
+    position:absolute;
+    top: 71px;
+    right: 72.5%; 
+    cursor: pointer;
+}
+.c1{
+    top: 161px;
+    background-color: #f4f7fe;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 81px;
+    left: 10%;
+    border: 4px solid #0277B5;
+}
+.c2{
+    top: 380px;
+    background-color: #f4f7fe;
+    position:absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 81px;
+    left: 10%;
+    border: 4px solid #0277B5;
+}
+.no1{
+    top: 164px;
+    position:absolute;
+    font-size: 23px;
+    left: 14%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.no2{
+    top: 383px;
+    position: absolute;
+    font-size: 23px;
+    left: 14%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.no3{
+    top: 164px;
+    position: absolute;
+    font-size: 23px;
+    left: 14%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.no4{
+    top: 383px;
+    position: absolute;
+    font-size: 23px;
+    left: 14%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.anchor{
+    text-decoration: none;
+    color:black;
+    
+}
+}
+
